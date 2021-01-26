@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 import {Link} from 'react-router-dom'
 export const NavContainer =styled.nav`
+    position:sticky;
     display:flex;
     width:100%;
     max-height:10vh;
@@ -36,5 +37,9 @@ export const NavLogo = styled.img`
 export const NavWrapper = styled.ul`
     display:flex;
     list-style:none;
+
+`
+
+export const NavList = styled.li`
 
 `
