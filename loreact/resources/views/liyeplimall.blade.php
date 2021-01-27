@@ -23,10 +23,9 @@
         </style>
     </head>
     <body class="antialiased">
-        <div id="example">
+        <div id="liyeplimall">
         </div>
 
         <script src="{{ asset('js/app.js') }}" defer></script>
-
     </body>
 </html>

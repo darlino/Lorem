@@ -19,7 +19,7 @@ export const InputSection = () => {
                 </FormGroup> */}
                 <h2 style={{marginTop:"80px"}}> Choisissez une categorie </h2>
                 <InputWrapper>
-                    <CardLink>
+                    <CardLink to="/liyeplimall">
                     <Card style={{ width: '18rem'}} className="border-rounded">
                         <Card.Img variant="top" src={liyep} />
                         <Card.Body>

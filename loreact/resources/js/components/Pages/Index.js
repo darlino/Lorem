@@ -13,11 +13,11 @@ import { InputSection } from '../InputSection/index'
 
 function Main() {
     return (
-        <Router>
+        <>
             <Navbar></Navbar>
             <HeroSection></HeroSection>
             <InputSection></InputSection>
-        </Router>
+       </>
         
        
     );

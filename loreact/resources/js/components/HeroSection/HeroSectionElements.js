@@ -15,7 +15,7 @@ export const HeroContainer = styled.div`
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
-    background-image:url(${bg});
+    background-image:url(${props => props.img});
   
     
 `

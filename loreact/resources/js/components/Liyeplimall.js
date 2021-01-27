@@ -25,8 +25,8 @@ function Example() {
     );
 }
 
-export default Example;
+export default Liyeplimall;
 
-if (document.getElementById('example')) {
-    ReactDOM.render(<Example />, document.getElementById('example'));
+if (document.getElementById('liyeplimall')) {
+    ReactDOM.render(<Example />, document.getElementById('liyeplimall'));
 }
