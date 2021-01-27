@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import bg from '../assets/bg.png'
-import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 export const HeroContainer = styled.div`
     background-size: cover;

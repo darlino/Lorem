@@ -7,16 +7,18 @@ import {
     Link
   } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {Navbar} from '../components/Navigation/Index'
-import { HeroSection } from './HeroSection';
-import { InputSection } from './InputSection';
+import Main from '../components/Pages/Index'
+import {Liyeplimall} from '../components/Pages/Liyeplimall/Index'
 
 function Example() {
     return (
         <Router>
-            <Navbar></Navbar>
-            <HeroSection></HeroSection>
-            <InputSection></InputSection>
+            <Main/>
+            <Switch>
+                <Route path="/liyeplimall">
+                    <Liyeplimall/>
+                </Route>
+            </Switch>
         </Router>
         
        
