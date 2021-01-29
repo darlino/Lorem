@@ -8,7 +8,7 @@ import {
   } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Main from '../components/Pages/Index'
-import {Liyeplimall} from '../components/Pages/Liyeplimall/Index'
+import {Liyeplimall} from '../components/Pages/Categories/Index'
 
 function Example() {
     return (

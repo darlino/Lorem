@@ -2704,7 +2704,7 @@ __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
 __webpack_require__(/*! ./components/Example */ "./resources/js/components/Example.js");
 
-__webpack_require__(/*! ./components/Liyeplimall */ "./resources/js/components/Liyeplimall.js");
+__webpack_require__(/*! ./components/Liyep */ "./resources/js/components/Liyep.js");
 
 /***/ }),
 
@@ -2770,7 +2770,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router/esm/react-router.js");
 /* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! bootstrap/dist/css/bootstrap.min.css */ "./node_modules/bootstrap/dist/css/bootstrap.min.css");
 /* harmony import */ var _components_Pages_Index__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Pages/Index */ "./resources/js/components/Pages/Index.js");
-/* harmony import */ var _components_Pages_Liyeplimall_Index__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/Pages/Liyeplimall/Index */ "./resources/js/components/Pages/Liyeplimall/Index.js");
+/* harmony import */ var _components_Pages_Categories_Index__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/Pages/Categories/Index */ "./resources/js/components/Pages/Categories/Index.js");
 
 
 
@@ -2789,7 +2789,7 @@ function Example() {
         component: _components_Pages_Index__WEBPACK_IMPORTED_MODULE_4__.default
       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_7__.Route, {
         path: "/liyeplimall",
-        component: _components_Pages_Liyeplimall_Index__WEBPACK_IMPORTED_MODULE_5__.Liyeplimall
+        component: _components_Pages_Categories_Index__WEBPACK_IMPORTED_MODULE_5__.Liyeplimall
       })]
     })
   });
@@ -3029,10 +3029,10 @@ var InputSection = function InputSection() {
 
 /***/ }),
 
-/***/ "./resources/js/components/Liyeplimall.js":
-/*!************************************************!*\
-  !*** ./resources/js/components/Liyeplimall.js ***!
-  \************************************************/
+/***/ "./resources/js/components/Liyep.js":
+/*!******************************************!*\
+  !*** ./resources/js/components/Liyep.js ***!
+  \******************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -3046,8 +3046,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router/esm/react-router.js");
 /* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! bootstrap/dist/css/bootstrap.min.css */ "./node_modules/bootstrap/dist/css/bootstrap.min.css");
-/* harmony import */ var _components_Pages_Index__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Pages/Index */ "./resources/js/components/Pages/Index.js");
-/* harmony import */ var _components_Pages_Liyeplimall_Index__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/Pages/Liyeplimall/Index */ "./resources/js/components/Pages/Liyeplimall/Index.js");
+/* harmony import */ var _Pages_Index__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Pages/Index */ "./resources/js/components/Pages/Index.js");
+/* harmony import */ var _components_Pages_Categories_Index__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/Pages/Categories/Index */ "./resources/js/components/Pages/Categories/Index.js");
 
 
 
@@ -3057,25 +3057,25 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-function Example() {
+function Liyep() {
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_6__.BrowserRouter, {
     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_router_dom__WEBPACK_IMPORTED_MODULE_7__.Switch, {
       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_7__.Route, {
         path: "/",
         exact: true,
-        component: _components_Pages_Index__WEBPACK_IMPORTED_MODULE_4__.default
+        component: _Pages_Index__WEBPACK_IMPORTED_MODULE_4__.default
       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_7__.Route, {
         path: "/liyeplimall",
-        component: _components_Pages_Liyeplimall_Index__WEBPACK_IMPORTED_MODULE_5__.Liyeplimall
+        component: _components_Pages_Categories_Index__WEBPACK_IMPORTED_MODULE_5__.Liyeplimall
       })]
     })
   });
 }
 
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_components_Pages_Liyeplimall_Index__WEBPACK_IMPORTED_MODULE_5__.Liyeplimall);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Liyep);
 
 if (document.getElementById('liyeplimall')) {
-  react_dom__WEBPACK_IMPORTED_MODULE_2__.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(Example, {}), document.getElementById('liyeplimall'));
+  react_dom__WEBPACK_IMPORTED_MODULE_2__.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(Liyep, {}), document.getElementById('liyeplimall'));
 }
 
 /***/ }),
@@ -3099,14 +3099,22 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+
 var Navbar = function Navbar() {
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_NavbarElements__WEBPACK_IMPORTED_MODULE_2__.NavContainer, {
-    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_NavbarElements__WEBPACK_IMPORTED_MODULE_2__.NavLogoLinks, {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_NavbarElements__WEBPACK_IMPORTED_MODULE_2__.NavContainer, {
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_NavbarElements__WEBPACK_IMPORTED_MODULE_2__.NavLogoLinks, {
       to: "/",
       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_NavbarElements__WEBPACK_IMPORTED_MODULE_2__.NavLogo, {
         src: _assets_s_logo_png__WEBPACK_IMPORTED_MODULE_3__.default
       })
-    })
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_NavbarElements__WEBPACK_IMPORTED_MODULE_2__.NavWrapper, {
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_NavbarElements__WEBPACK_IMPORTED_MODULE_2__.NavList, {
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_NavbarElements__WEBPACK_IMPORTED_MODULE_2__.Links, {
+          href: "https://git-sa.atlassian.net/servicedesk/customer/portals",
+          children: " Request "
+        })
+      })
+    })]
   });
 };
 
@@ -3125,10 +3133,21 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "NavLogoLinks": () => /* binding */ NavLogoLinks,
 /* harmony export */   "NavLogo": () => /* binding */ NavLogo,
 /* harmony export */   "NavWrapper": () => /* binding */ NavWrapper,
-/* harmony export */   "NavList": () => /* binding */ NavList
+/* harmony export */   "NavList": () => /* binding */ NavList,
+/* harmony export */   "Links": () => /* binding */ Links
 /* harmony export */ });
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+function _templateObject6() {
+  var data = _taggedTemplateLiteral(["\n    text-decoration:none;\n    color:black;\n\n    &:hover{\n        text-decoration:none;\n        color:gray;\n    }\n"]);
+
+  _templateObject6 = function _templateObject6() {
+    return data;
+  };
+
+  return data;
+}
+
 function _templateObject5() {
   var data = _taggedTemplateLiteral(["\n\n"]);
 
@@ -3188,6 +3207,35 @@ var NavLogoLinks = (0,styled_components__WEBPACK_IMPORTED_MODULE_0__.default)(re
 var NavLogo = styled_components__WEBPACK_IMPORTED_MODULE_0__.default.img(_templateObject3());
 var NavWrapper = styled_components__WEBPACK_IMPORTED_MODULE_0__.default.ul(_templateObject4());
 var NavList = styled_components__WEBPACK_IMPORTED_MODULE_0__.default.li(_templateObject5());
+var Links = styled_components__WEBPACK_IMPORTED_MODULE_0__.default.a(_templateObject6());
+
+/***/ }),
+
+/***/ "./resources/js/components/Pages/Categories/Index.js":
+/*!***********************************************************!*\
+  !*** ./resources/js/components/Pages/Categories/Index.js ***!
+  \***********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "Liyeplimall": () => /* binding */ Liyeplimall
+/* harmony export */ });
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _Navigation_Index__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../Navigation/Index */ "./resources/js/components/Navigation/Index.js");
+/* harmony import */ var _HeroSection_index__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../HeroSection/index */ "./resources/js/components/HeroSection/index.js");
+
+
+
+
+
+var Liyeplimall = function Liyeplimall() {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_Navigation_Index__WEBPACK_IMPORTED_MODULE_2__.Navbar, {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_HeroSection_index__WEBPACK_IMPORTED_MODULE_3__.HeroSection, {})]
+  });
+};
 
 /***/ }),
 
@@ -3227,34 +3275,6 @@ function Main() {
 }
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Main);
-
-/***/ }),
-
-/***/ "./resources/js/components/Pages/Liyeplimall/Index.js":
-/*!************************************************************!*\
-  !*** ./resources/js/components/Pages/Liyeplimall/Index.js ***!
-  \************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Liyeplimall": () => /* binding */ Liyeplimall
-/* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var _Navigation_Index__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../Navigation/Index */ "./resources/js/components/Navigation/Index.js");
-/* harmony import */ var _HeroSection_index__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../HeroSection/index */ "./resources/js/components/HeroSection/index.js");
-
-
-
-
-
-var Liyeplimall = function Liyeplimall() {
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_Navigation_Index__WEBPACK_IMPORTED_MODULE_2__.Navbar, {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_HeroSection_index__WEBPACK_IMPORTED_MODULE_3__.HeroSection, {})]
-  });
-};
 
 /***/ }),
 

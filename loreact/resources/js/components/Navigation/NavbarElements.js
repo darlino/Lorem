@@ -43,3 +43,13 @@ export const NavWrapper = styled.ul`
 export const NavList = styled.li`
 
 `
+
+export const Links = styled.a`
+    text-decoration:none;
+    color:black;
+
+    &:hover{
+        text-decoration:none;
+        color:gray;
+    }
+`
