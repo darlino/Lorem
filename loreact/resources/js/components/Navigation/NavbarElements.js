@@ -37,19 +37,28 @@ export const NavLogo = styled.img`
 export const NavWrapper = styled.ul`
     display:flex;
     list-style:none;
+    
 
 `
 
 export const NavList = styled.li`
-
+     margin-top:23px;
+     display:flex;
+     margin-right:30px
 `
 
 export const Links = styled.a`
-    text-decoration:none;
-    color:black;
 
+    text-decoration:none;
+    color:#003180;
+    font-size:25px;
+    font-weight:bold;
+    display:flex;
+    
+
+   
     &:hover{
         text-decoration:none;
-        color:gray;
+        color:#003180;
     }
 `

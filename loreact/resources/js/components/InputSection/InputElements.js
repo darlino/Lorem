@@ -35,3 +35,8 @@ export const CardLink = styled(Link)`
     text-decoration:none;
     color:gray
 `
+export const ListWrapper = styled.ul`
+    width:auto;
+    display:flex;
+    flex-direction:column;
+`

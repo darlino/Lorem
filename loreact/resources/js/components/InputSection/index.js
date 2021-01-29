@@ -44,6 +44,8 @@ export const InputSection = () => {
                         </Card.Body>
                     </Card>
                 </InputWrapper>
+                <hr></hr>
+                <h2 style={{marginTop:"80px"}}> Questions populaire </h2>
             </Form>
         </InputContainer>
     )
