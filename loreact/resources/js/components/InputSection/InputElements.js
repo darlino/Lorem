@@ -16,7 +16,6 @@ export const InputContainer = styled.div`
     top:-120px;
     box-shadow:8px 8px 10px gray;
     text-align:center;
-    line-height:60px;
     font-family:Nunito
 
 `
