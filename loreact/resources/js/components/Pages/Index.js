@@ -6,17 +6,20 @@ import {
     Route,
     Link
   } from "react-router-dom";
+import bg from '../assets/bg.png'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Navbar} from '../Navigation/Index'
 import { HeroSection } from '../HeroSection/index'
 import { InputSection } from '../InputSection/index'
+import {Footer} from '../Footer/Index'
 
 function Main() {
     return (
         <>
             <Navbar></Navbar>
-            <HeroSection></HeroSection>
+            <HeroSection img={bg}></HeroSection>
             <InputSection></InputSection>
+            <Footer/>
        </>
         
        

@@ -8,7 +8,7 @@ export const InputContainer = styled.div`
     position:relative;
     margin: 0 auto;
     z-index: 2;
-    width:700px;
+    width:80vh;
     height: auto;
     overflow:hidden;
     border-radius:20px;
@@ -16,7 +16,8 @@ export const InputContainer = styled.div`
     top:-120px;
     box-shadow:8px 8px 10px gray;
     text-align:center;
-    font-family:Nunito
+    font-family:Nunito;
+    padding-bottom:40px
 
 `
 

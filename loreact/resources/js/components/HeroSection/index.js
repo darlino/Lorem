@@ -3,13 +3,13 @@ import {HeroContainer,HeroTextWrapper} from './HeroSectionElements'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import bg from '../assets/bg.png'
 
-export const HeroSection = (img1) => {
+export const HeroSection = (props) => {
 
-    {img1 = bg}
+    
     return (
-        <HeroContainer img ={img1}>
+        <HeroContainer img ={props.img}>
             <HeroTextWrapper>
-                <h1> Nous sommes la pour vous aider </h1>
+                <h1 fontSize="60px"> Nous sommes la pour vous aider </h1>
             </HeroTextWrapper>
         </HeroContainer>
     )

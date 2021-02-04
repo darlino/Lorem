@@ -25,7 +25,7 @@ export const HeroTextWrapper = styled.div`
     text-align:center;
     color:white;
     font-weight:bold;
-    font-size:40px;
+    font-size:60px;
     
     
 

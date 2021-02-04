@@ -12,7 +12,7 @@ import {
 
 export const ToggleQuestion = (props) => {
     return (
-        <Accordion defaultIndex={[0]} allowMultiple w="500px"  justifyContent="center" margin="0 auto" textAlign="left" p="10px" pb="20px">
+        <Accordion defaultIndex={[0]} allowMultiple w="700px"  justifyContent="center" margin="0 auto" textAlign="left">
             <AccordionItem>
                 <AccordionButton>
                     <Box flex="1" textAlign="left" h="40px" pt="9px">
@@ -20,7 +20,7 @@ export const ToggleQuestion = (props) => {
                     </Box>
                     <AccordionIcon />
                 </AccordionButton>
-                <AccordionPanel pb={4} color="gray" fontWeight="none">
+                <AccordionPanel pb={4}  color="gray" fontWeight="none">
                         {props.text}
                       
                 </AccordionPanel>

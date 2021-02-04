@@ -8,14 +8,13 @@ import {
   } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Main from './Pages/Index'
-import {Liyeplimall,LimarketComponent,SimbcoinComponent} from '../components/Pages/Categories/Index'
+import {Liyeplimall,SimbcoinComponent,LimarketComponent} from '../components/Pages/Categories/Index'
 
-function Liyep() {
+function Simbcoin() {
     return (
         <Router>
             <Switch>
                 <Route path='/' exact component={Main}/>
-
                 <Route path="/liyeplimall" component={Liyeplimall}/>
                 <Route path="/limarket" component={LimarketComponent}/>
                 <Route path="/simbcoin" component={SimbcoinComponent}/>
@@ -26,8 +25,8 @@ function Liyep() {
     );
 }
 
-export default Liyep;
+export default Simbcoin;
 
-if (document.getElementById('liyeplimall')) {
-    ReactDOM.render(<Liyep />, document.getElementById('liyeplimall'));
+if (document.getElementById('simbcoin')) {
+    ReactDOM.render(<Simbcoin />, document.getElementById('simbcoin'));
 }
