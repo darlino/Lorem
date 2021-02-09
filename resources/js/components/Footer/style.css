@@ -1,0 +1,23 @@
+
+  .lg{
+    display: flex;
+    position: absolute;
+    justify-content: flex-end;
+  }
+
+  .sm{
+    display: none;
+    position: absolute;
+    justify-content: flex-end;
+  }
+
+  @media (max-width: 980px){
+    .sm{
+      display: block;
+    }
+  
+    .lg{
+      display: none;
+    }
+
+  }
