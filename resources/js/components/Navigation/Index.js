@@ -12,9 +12,9 @@ export const NavBar = () => {
             </Navbar.Brand>
             <Navbar.Toggle/>
             <Navbar.Collapse className="justify-content-end">
-                <Navbar.Text>
+                <Navbar.Text class="text-200">
                 
-                    <Links href="https://git-sa.atlassian.net/servicedesk/customer/portals">
+                    <Links href="https://support-gitsa.atlassian.net/servicedesk/customer/portal/1">
                         Requ&ecirc;te    
                     </Links>
                     
