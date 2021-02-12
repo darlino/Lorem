@@ -18,7 +18,15 @@
         <style>
             body {
                 font-family: 'Nunito';
-                font-weight:bold
+                font-weight:bold;
+
+            }
+            a{
+                text-decoration:none;
+
+            }
+            a:hover{
+                text-decoration:none;
             }
         </style>
     </head>

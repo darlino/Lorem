@@ -1,10 +1,10 @@
-// questions de liyeplimall je sais ce n'est pas une bonne pratique
+// questions de liyeplimal je sais ce n'est pas une bonne pratique
 import { Table } from 'reactstrap';
 
 export const questionsLiyep = [
     {
-        title:"Comment creer un compte liyeplimall",
-        text:<div style={{color:"GrayText",textAlign:"left",fontSize:"20px"}}><h1 textAlign="center"><strong color="blue">1 - Comment cr&eacute;er un compte&nbsp;</strong></h1>
+        title:"Comment creer un compte liyeplimal",
+        text:<div style={{color:"black",textAlign:"left",fontSize:"15px",fontFamily:"Nunito"}}><h1 textAlign="center" color="blue"><strong >1 - Comment cr&eacute;er un compte&nbsp;</strong></h1>
         <p>La cr&eacute;ation d&rsquo;un compte sur notre plateforme est gratuite mais n&eacute;cessite certaines informations obligatoires. Vous devez obtenir un lien d&rsquo;invitation par la personne qui vous parle de la plateforme afin de pouvoir cr&eacute;er un compte sans ce, c&rsquo;est impossible. Les informations requises sont:</p>
         <ul>
         <li>Le nom complet de l&rsquo;utilisateur</li>
@@ -28,39 +28,39 @@ export const questionsLiyep = [
         <p>Une fois le formulaire bien rempli, vous devez accepter nos termes et conditions d&rsquo;utilisation ainsi que l'acceptation des codes de conduite et d&eacute;ontologiques. Si tout se passe sans erreur, le compte de l&rsquo;utilisateur sera cr&eacute;&eacute; avec succ&egrave;s, et il recevra cependant un lien de confirmation par mail contenant les termes et conditions dont il devra prendre connaissance avant de cliquer sur le lien d&rsquo;activation se trouvant &agrave; la fin de ceux-ci.</p></div>
     },
     {
-        title:"Comment creer son compte",
-        text:<div style={{color:"GrayText",textAlign:"left",fontSize:"20px"}}>
+        title:"Comment verifier son compte",
+        text:<div style={{color:"black",textAlign:"left",fontSize:"15px",fontFamily:"Nunito"}}>
             <h1 textAlign="center" color="blue"><strong >2 - Comment v&eacute;rifier son compte&nbsp;</strong></h1>
             <p>Vous serez amen&eacute; &agrave; produire les <strong>pi&egrave;ces d'identit&eacute;</strong> officielles pour la v&eacute;rification de votre identit&eacute;. Il est recommand&eacute; de v&eacute;rifier son compte avant de commencer &agrave; effectuer les transactions. La v&eacute;rification prend moins de 24h.</p>
         
         </div> },
     {
         title:"Comment changer son mot de passe",
-        text:  <div style={{color:"GrayText",textAlign:"left",fontSize:"20px"}}>
+        text:  <div style={{color:"black",textAlign:"left",fontSize:"15px",fontFamily:"Nunito"}}>
         <h1 textAlign="center" color="blue"><strong >3 - Comment changer son mot de passe</strong></h1>
             <p>Rendez-vous sur la page <a href="https://customer.liyeplimal.net/customer"><strong>Connexion</strong></a> et cliquez sur <strong>Mot de passe</strong> oubli&eacute; sur le champ Mot de passe. Entrez votre email et cliquez sur le bouton <strong>Envoyez. </strong>Vous recevrez un email contenant un <strong>Code de Reinitialisation</strong> de mot de passe. Entrez ce code dans le formulaire, votre nouveau mot de passe et confirmez-le.Une fois termin&eacute;, vous aurez r&eacute;initialis&eacute; votre mot de passe avec succ&egrave;s.</p>
         </div>  },
     {
-        title:"Comment faire crediter son compte liyeplimall",
-        text:   <div style={{color:"GrayText",textAlign:"left",fontSize:"20px"}}>
-        <h1 textAlign="center" color="blue"><strong >4 - Comment faire crediter son compte liyeplimall</strong></h1>
+        title:"Comment faire crediter son compte liyeplimal",
+        text:   <div style={{color:"black",textAlign:"left",fontSize:"15px",fontFamily:"Nunito"}}>
+        <h1 textAlign="center" color="blue"><strong >4 - Comment faire crediter son compte liyeplimal</strong></h1>
             <p>Les comptes sont cr&eacute;dit&eacute;s par <strong>Orange Money</strong>, <strong>Payeer</strong>, <strong>Bitcoin</strong> ou par <strong>virement bancaire</strong>.</p>
         </div> },
     {
-        title:"C'est quoi le parrainage sur liyeplimall",
-        text: <div style={{color:"GrayText",textAlign:"left",fontSize:"20px"}}>
+        title:"C'est quoi le parrainage sur liyeplimal",
+        text: <div style={{color:"black",textAlign:"left",fontSize:"15px",fontFamily:"Nunito"}}>
              <h1 textAlign="center" color="blue"><strong >5 - C'est quoi le parrainage</strong></h1>
              <p>Le parrainage sur Liyeplimal c&rsquo;est le fait d'envoyer ton lien d&rsquo;invitation &agrave; un invit&eacute; afin qu&rsquo;il cr&eacute;e un compte sur Liyeplimal. Cela fait de vous un parrain du nouveau client et vous offre des avantages selon le <strong>Plan de compensation</strong>.</p>
         </div>},
     {
         title:"Comment se faire parrainer",
-        text:<div style={{color:"GrayText",textAlign:"left",fontSize:"20px"}}>
+        text:<div style={{color:"black",textAlign:"left",fontSize:"15px",fontFamily:"Nunito"}}>
         <h1 textAlign="center" color="blue"><strong >6 - Commnet se faire parrainer</strong></h1>
         <p>Pour se faire parrainer, demandez &agrave; celui qui vous a parl&eacute; de la plateforme de vous envoyer un lien d&rsquo;inscription. Apprenez plus sur la rubrique <strong>Plan de compensation</strong>.</p>          </div>
     },
     {
         title:"Comment changer son nom et son prenom",
-        text:<div style={{color:"GrayText",textAlign:"left",fontSize:"20px"}}>
+        text:<div style={{color:"black",textAlign:"left",fontSize:"15px",fontFamily:"Nunito"}}>
         <h1 textAlign="center" color="blue"><strong >7- Commnet changer son nom et son prénom</strong></h1>
         <p>Pour modifier vos noms, faites une requ&ecirc;te aux supports avec pour type de requ&ecirc;te modification de compte.</p>          </div>    },
     
@@ -72,13 +72,13 @@ export const questionsLiyep = [
 export const questionsLimarket = [
     {
         title:"Ai je besoin d'un compte pour acheter sur Limarket ?",
-        text:<div style={{color:"GrayText",textAlign:"left",fontSize:"20px"}}><h1 textAlign="center"><strong color="blue">1 - Comment cr&eacute;er un compte&nbsp;</strong></h1>
+        text:<div style={{color:"black",textAlign:"left",fontSize:"15px",fontFamily:"Nunito"}}><h1 textAlign="center"><strong color="blue">1 - Comment cr&eacute;er un compte&nbsp;</strong></h1>
         <p>L&rsquo;utilisateur n&rsquo;a pas besoin d&rsquo;un compte pour acheter sur LiMarket. Il lui faut juste certaines informations tels que le nom, l&rsquo;adresse, les infos de contact etc. Il peut s&rsquo;il veut cr&eacute;er son compte durant la proc&eacute;dure de commande.</p></div>
     },
     {
         title:"Comment payer sur Limarket ?",
-        text:<div style={{color:"GrayText",textAlign:"left",fontSize:"20px"}}>
-            <h1 textAlign="center" color="blue"><strong >2 - Comment payer sur liyeplimall;</strong></h1>
+        text:<div style={{color:"black",textAlign:"left",fontSize:"15px",fontFamily:"Nunito"}}>
+            <h1 textAlign="center" color="blue"><strong >2 - Comment payer sur limarket;</strong></h1>
             <p>Le paiement se fait via:</p>
                 <ol>
                     <li><strong>Bitcoin</strong></li>
@@ -91,7 +91,7 @@ export const questionsLimarket = [
         </div> },
     {
         title:"Comment vendre sur limarket",
-        text:  <div style={{color:"GrayText",textAlign:"left",fontSize:"20px"}}>
+        text:  <div style={{color:"black",textAlign:"left",fontSize:"15px",fontFamily:"Nunito"}}>
         <h1 textAlign="center" color="blue"><strong >3 - Comment vendre sur limarket </strong></h1>
         <p>Pour vendre sur Limarket, vous devez:</p>
 <ul>
@@ -105,13 +105,13 @@ export const questionsLimarket = [
         </div>  },
     {
         title:"Comment acheter sur limarket",
-        text:   <div style={{color:"GrayText",textAlign:"left",fontSize:"20px"}}>
+        text:  <div style={{color:"black",textAlign:"left",fontSize:"15px",fontFamily:"Nunito"}}>
         <h1 textAlign="center" color="blue"><strong >4 - Comment acheter sur limarket</strong></h1>
             <p>Les comptes sont cr&eacute;dit&eacute;s par <strong>Orange Money</strong>, <strong>Payeer</strong>, <strong>Bitcoin</strong> ou par <strong>virement bancaire</strong>.</p>
         </div> },
     {
         title:"Livraison des produits",
-        text: <div style={{color:"GrayText",textAlign:"left",fontSize:"20px"}}>
+        text: <div style={{color:"black",textAlign:"left",fontSize:"15px",fontFamily:"Nunito"}}>
              <h1 textAlign="center" color="blue"><strong >5 - Livraison des produits</strong></h1>
              <p>Pour tous vos achats sur Limarket il y a deux possibilit&eacute;s</p>
 <ol>
@@ -122,7 +122,7 @@ export const questionsLimarket = [
 <p>Tous les produits de cette sous-cat&eacute;gorie se d&eacute;velopperont et vous pourrez choisir celui que vous souhaitez acheter.</p>  </div>},
     {
         title:"Frais de livraison",
-        text:<div style={{color:"GrayText",textAlign:"left",fontSize:"20px"}}>
+        text:<div style={{color:"black",textAlign:"left",fontSize:"15px",fontFamily:"Nunito"}}>
         <h1 textAlign="center" color="blue"><strong >6 - Frais de livraison</strong></h1>
         <ul>
 <li>Limarket est rassur&eacute; pour minimiser les frais qui sont mis dans votre poche lors de ces livraisons</li>
@@ -155,7 +155,7 @@ export const questionsLimarket = [
 <p><br /><br /></p>  </div>  },
     {
         title:"Point de livraison",
-        text:<div style={{color:"GrayText",textAlign:"left",fontSize:"20px"}}>
+        text:<div style={{color:"black",textAlign:"left",fontSize:"15px",fontFamily:"Nunito"}}>
         <h1 textAlign="center" color="blue"><strong >7- Point de livraison</strong></h1>
         <ul>
 <li>
@@ -173,9 +173,35 @@ export const questionsLimarket = [
 export const questionsSimbCoin = [
     {
         title:"Qu'est ce que le simbcoin",
-        text:<div>
+        text:<div style={{color:"black",textAlign:"left",fontSize:"15px",fontFamily:"Nunito"}}>
             <p><strong> I-Qu&rsquo;est-ce-que le SimbCoin?</strong></p>
 <p><br /><strong>SimbCoin </strong>est un projet de crypto-monnaie initi&eacute; par le groupe <strong>Global Trading Investment </strong>le 16 novembre 2019. <a href="https://latoken.com/exchange/for_currency/SMBSWAP/"><strong>SimbCoin SWAP</strong></a> est un Token reposant sur le syst&egrave;me ERC20 d'Ethereum, une technologie de contrat intelligent en BlockChain. Ce projet SimbCoin permettra de mettre sur pied et valoriser le projet <strong>SimbCity</strong>.</p>
         </div>
+    },
+    {
+        title:"Comment acheter ou vendre du Simbcoin",
+        text:<div style={{color:"black",textAlign:"center",fontSize:"15px",fontFamily:"Nunito"}}>
+           <ul>
+<li><strong><strong>Comment acheter ou vendre du SimbCoin?</strong></strong></li>
+</ul>
+<p><br />L&rsquo;achat et la vente du SimbCoin se fait sur la plateforme <a href="https://latoken.com/"><strong>La Token</strong></a> disponible sur <a href="https://play.google.com/store/apps/details?id=com.latoken.wallet&amp;shortlink=gomobile2&amp;pid=latoken.com&amp;c=Main%20page%20card">PlayStore </a>et <a href="https://apps.apple.com/in/app/latoken-simple-bitcoin-wallet/id1475744349?shortlink=ios&amp;pid=latoken.com&amp;c=Exchange%20Banner">AppStore</a>.</p>    </div>
+    },
+    {
+        title:"Comment investir dans le simbcoin",
+        text:<div style={{color:"black",textAlign:"center",fontSize:"15px",fontFamily:"Nunito"}}>
+  <ul>
+<li><strong>Comment investir du SimbCoin?</strong>
+<p>Rendez-vous sur le site <a href="https://customer.liyeplimal.net/customer/registration"><strong>Liyeplimal Registration</strong></a>ou t&eacute;l&eacute;charger l&rsquo;application sur play store pour cr&eacute;er un compte et investir dans le SimbCoin. Vous disposez de plusieurs moyens d&rsquo;achat de <strong>SimbCoin</strong>(Limo, Bitcoin, Visa et MasterCard, Mobile Money, Payeer)</p>
+</li>
+</ul>   </div>
+    },
+    {
+        title:"Comment investir dans le simbcoin",
+        text:<div style={{color:"black",textAlign:"center",fontSize:"15px",fontFamily:"Nunito"}}>
+  <ul>
+<li><strong>Comment investir du SimbCoin?</strong>
+<p>Rendez-vous sur le site <a href="https://customer.liyeplimal.net/customer/registration"><strong>Liyeplimal Registration</strong></a>ou t&eacute;l&eacute;charger l&rsquo;application sur play store pour cr&eacute;er un compte et investir dans le SimbCoin. Vous disposez de plusieurs moyens d&rsquo;achat de <strong>SimbCoin</strong>(Limo, Bitcoin, Visa et MasterCard, Mobile Money, Payeer)</p>
+</li>
+</ul>   </div>
     }
 ]

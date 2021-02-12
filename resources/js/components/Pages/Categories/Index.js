@@ -2,8 +2,8 @@ import React from 'react'
 import { NavBar } from '../../Navigation/Index';
 import { HeroSection } from '../../HeroSection/index';
 import {Footer } from '../../Footer/Index'
-import {LiyepTab,LimarketTab} from './Elements'
-import bg from '../../assets/bg.png'
+import {LiyepTab,LimarketTab,SimbcoinTab} from './Elements'
+import bg from '../../assets/ubg.svg'
 import bglimo from '../../assets/bglimo.png'
 import bglimarket from '../../assets/bglimarket.png'
 import bgsimbcoin from '../../assets/bgsimbcoin.png'
@@ -13,9 +13,9 @@ export const Liyeplimall = () => {
     return (
         <div>
             <NavBar/>
-            <HeroSection img={bglimo}/>
+            <HeroSection img={bg} text="Liyeplimal"/>
             <LiyepTab/> 
-            <Footer/>
+            
         </div>
     )
 }
@@ -24,9 +24,9 @@ export const LimarketComponent = () => {
     return(
         <div>
             <NavBar/>
-            <HeroSection img={bglimarket}/>
+            <HeroSection img={bg} text="Limarket"/>
             <LimarketTab/>
-            <Footer/>
+            
         </div>
     )
 }
@@ -35,9 +35,9 @@ export const SimbcoinComponent = () => {
     return(
         <div>
             <NavBar/>
-            <HeroSection img={bgsimbcoin}/>
-            <LiyepTab/>
-            <Footer/>
+            <HeroSection img={bg} text="Simbcoin"/>
+            <SimbcoinTab/>
+            
         </div>
         )
 }

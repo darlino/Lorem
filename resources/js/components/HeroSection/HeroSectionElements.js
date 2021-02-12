@@ -16,6 +16,7 @@ export const HeroContainer = styled.div`
       -ms-flex-pack: center;
           justify-content: center;
     background-image:url(${props => props.img});
+    background-attachment: scroll;
   
     
 `

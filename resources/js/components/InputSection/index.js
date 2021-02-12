@@ -5,48 +5,33 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './style.css';
 import {Card} from 'react-bootstrap'
 import liyep from '../assets/liyep.png'
-import simbcoin from '../assets/simbcoin.png'
+import simboin from '../assets/simbcoin.png'
 import limarket from '../assets/limarket.png'
 import {questions} from './Data'
 import {ToggleQuestion} from './ToggleQuestion'
-
+import MediaCard from './Card'
 export const InputSection = () => {
+
+    
     return (
         <InputContainer>
 
             <Form>
-                <h2 style={{marginTop:"80px"}}> Choisissez une categorie </h2>
+               
                 <center>
 
                     <InputWrapper className='row'>
 
-                        <CardLink to="/liyeplimall" className='col'>
-                            <Card className="card-style border-rounded">
-                                <Card.Img variant="top" src={liyep} />
-                                <Card.Body>
-                                    <Card.Title>Liyeplimal</Card.Title>
-
-                                </Card.Body>
-                            </Card>
+                        <CardLink to="/liyeplimall" className='col' style={{border:"none" , outline:"none"}}>
+                            <MediaCard img={liyep} title="Liyeplimal" text="Liyeplimal est une plateforme ou on peut gagner de l'argent tres simplement en investissant"/>
                         </CardLink>
 
                         <CardLink to="/simbcoin" className='col'>
-                            <Card className="card-style border-rounded">
-                                <Card.Img variant="top" src={simbcoin}  />
-                                <Card.Body>
-                                    <Card.Title>Simbcoin</Card.Title>
-
-                                </Card.Body>
-                            </Card>
+                            <MediaCard img={simboin} title="Simbcoin" text="Simbcoin est une monnaie virtuelle base sur ethereum  et disponible a l'achat sur LaToken"/>
                         </CardLink>
 
                         <CardLink to="/limarket" className='col'>
-                            <Card className="card-style border-rounded">
-                                <Card.Img variant="top" src={limarket} />
-                                <Card.Body>
-                                    <Card.Title>LiMarket</Card.Title>
-                                </Card.Body>
-                            </Card>
+                            <MediaCard img={limarket} title="Limarket" text="Limarket est  une boutique en ligne livrant dans toutes les villes et acceptant les cryptomonnaies"/>
                         </CardLink>
 
                     </InputWrapper>
@@ -55,7 +40,7 @@ export const InputSection = () => {
 
                 <hr/>
 
-                <h2 style={{marginTop:"50px", marginBottom:"50px"}}> Questions populaire </h2>
+                <h1 style={{marginTop:"50px", marginBottom:"50px"}}> Sujets populaire </h1>
                 <div>
                     {questions.map(elements =>{
                         return(

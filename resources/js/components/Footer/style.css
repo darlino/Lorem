@@ -2,22 +2,26 @@
   .lg{
     display: flex;
     position: absolute;
-    justify-content: flex-end;
+
   }
 
   .sm{
     display: none;
     position: absolute;
-    justify-content: flex-end;
+
   }
+
 
   @media (max-width: 980px){
     .sm{
-      display: block;
+      display: none;
+      justify-content:flex-end;
+      
     }
   
     .lg{
       display: none;
     }
+    
 
   }

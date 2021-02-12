@@ -28,7 +28,7 @@ export const InputWrapper = styled.div`
     display:flex;
     flex-wrap:wrap;
     margin:40px;
-    justify-content:space-between
+    justify-content:space-between;
 
     @media (max-width: 768px) {
          display:block;
@@ -38,8 +38,7 @@ export const InputWrapper = styled.div`
 `
 
 export const CardLink = styled(Link)`
-    width:80%;
-    height:auto;
+    
     text-decoration:none;
     color:gray
 `
