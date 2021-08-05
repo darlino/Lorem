@@ -11,7 +11,7 @@ import simbcoin from '../assets/simbcoin.png'
 
 const useStyles = makeStyles({
   root: {
-    maxWidth: 345,
+    maxWidth: 280,
     
   },
   text:{
@@ -33,13 +33,12 @@ export default function MediaCard(props) {
         <CardMedia
           className={classes.media}
           image={props.img}
-          title="Contemplative Reptile"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h1" className={classes.text} >
             {props.title}
           </Typography>
-          <Typography variant="body2" color="textSecondary" component="p" className={classes.text}>
+          <Typography variant="body2" color="textSecondary" component="p" className={classes.text} style={{ textAlign:"justify"}}>
             {props.text}
           </Typography>
         </CardContent>

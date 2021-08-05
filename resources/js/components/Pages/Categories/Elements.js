@@ -43,7 +43,7 @@ export const LiyepTab  = () => {
       <div className="sm">
         {questionsLiyep.map(elements => {
           return(
-            <ToggleQuestion title={elements.title} text={elements.text} />
+            <ToggleQuestion title={elements.title} text={elements.text} w="100%"/>
           );
         })}
       </div>
@@ -84,7 +84,7 @@ export const LimarketTab  = () => {
       <div className="sm">
         {questionsLimarket.map(elements => {
           return(
-            <ToggleQuestion title={elements.title} text={elements.text} className="info" />
+            <ToggleQuestion title={elements.title} text={elements.text} className="info" w="100%" />
           );
         })}
       </div>
@@ -96,7 +96,7 @@ export const LimarketTab  = () => {
 export const SimbcoinTab  = () => {
   return (
     <div className="App">
-      <Tabs>
+      <Tabs className="lg">
         <TabList>
             {questionsSimbCoin.map(question => {
                 return(
@@ -125,7 +125,7 @@ export const SimbcoinTab  = () => {
       <div className="sm">
         {questionsSimbCoin.map(elements => {
           return(
-            <ToggleQuestion title={elements.title} text={elements.text} />
+            <ToggleQuestion title={elements.title} text={elements.text}  w="100%"/>
           )
         })}
       </div>

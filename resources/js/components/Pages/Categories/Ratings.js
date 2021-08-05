@@ -24,23 +24,23 @@ const StyledRating = withStyles({
 const customIcons = {
   1: {
     icon: <SentimentVeryDissatisfiedIcon />,
-    label: 'Very Dissatisfied',
+    label: 'Pas Satisfait',
   },
   2: {
     icon: <SentimentDissatisfiedIcon />,
-    label: 'Dissatisfied',
+    label: 'Un peu',
   },
   3: {
     icon: <SentimentSatisfiedIcon />,
-    label: 'Neutral',
+    label: 'Neutre',
   },
   4: {
     icon: <SentimentSatisfiedAltIcon />,
-    label: 'Satisfied',
+    label: 'Satisfait',
   },
   5: {
     icon: <SentimentVerySatisfiedIcon />,
-    label: 'Very Satisfied',
+    label: 'Tres Satisfait',
   },
 };
 

@@ -9,7 +9,9 @@ import simboin from '../assets/simbcoin.png'
 import limarket from '../assets/limarket.png'
 import {questions} from './Data'
 import {ToggleQuestion} from './ToggleQuestion'
+import {InfoSection} from '../InfoSection/index'
 import MediaCard from './Card'
+import { Heading } from '@chakra-ui/react';
 export const InputSection = () => {
 
     
@@ -22,16 +24,16 @@ export const InputSection = () => {
 
                     <InputWrapper className='row'>
 
-                        <CardLink to="/liyeplimall" className='col' style={{border:"none" , outline:"none"}}>
-                            <MediaCard img={liyep} title="Liyeplimal" text="Liyeplimal est une plateforme ou on peut gagner de l'argent tres simplement en investissant"/>
+                        <CardLink to="/liyeplimal" className='col' style={{border:"none" , outline:"none"}}>
+                            <MediaCard img={liyep} title="Liyeplimal" text="Liyeplimal est une plateforme d'investissement permettant de générer des profits à hauteur de ses placements"/>
                         </CardLink>
 
                         <CardLink to="/simbcoin" className='col'>
-                            <MediaCard img={simboin} title="Simbcoin" text="Simbcoin est une monnaie virtuelle base sur ethereum  et disponible a l'achat sur LaToken"/>
+                            <MediaCard img={simboin} title="Simbcoin" text="Simbcoin est une cryptomonnaie basée sur l'immobilier et permettant un échanges et biens et de services"/>
                         </CardLink>
 
                         <CardLink to="/limarket" className='col'>
-                            <MediaCard img={limarket} title="Limarket" text="Limarket est  une boutique en ligne livrant dans toutes les villes et acceptant les cryptomonnaies"/>
+                            <MediaCard img={limarket} title="Limarket" text="Limarket est une plateforme de e-commerce permettant de s'appovisionner en produits de diverses catégories, acceptant le paiement par cryptomonnaies"/>
                         </CardLink>
 
                     </InputWrapper>
@@ -39,17 +41,20 @@ export const InputSection = () => {
                 </center>
 
                 <hr/>
-
-                <h1 style={{marginTop:"50px", marginBottom:"50px"}}> Sujets populaire </h1>
+                
+                <Heading p={10}> Sujets populaires </Heading>
                 <div>
                     {questions.map(elements =>{
                         return(
-                            <ToggleQuestion title={elements.title} text={elements.text}/>
+                            <ToggleQuestion title={elements.title} text={elements.text} w={['300px','400px','800px','1000px']}/>
                         );
 
                     })}
 
                 </div>
+                <hr/>
+                <InfoSection/>
+                
 
             </Form>
         </InputContainer>

@@ -1,13 +1,9 @@
 import React from 'react'
 import { NavBar } from '../../Navigation/Index';
 import { HeroSection } from '../../HeroSection/index';
-import {Footer } from '../../Footer/Index'
 import {LiyepTab,LimarketTab,SimbcoinTab} from './Elements'
 import bg from '../../assets/ubg.svg'
-import bglimo from '../../assets/bglimo.png'
-import bglimarket from '../../assets/bglimarket.png'
-import bgsimbcoin from '../../assets/bgsimbcoin.png'
-import { Divider,Stack } from "@chakra-ui/react"
+
 
 export const Liyeplimall = () => {
     return (

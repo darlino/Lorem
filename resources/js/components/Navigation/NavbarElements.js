@@ -22,7 +22,29 @@ export const NavLogoLinks = styled(Link)`
         margin-left: 5px;
     }
 `
+export const BtnNav = styled.div`
+    width:270px;
+    height:40px;
+    background-color:#FFA918;
+    color:#04166C;
+    border-radius:4px;
+    align-items:center;
+    padding-top:4px;
+    font-size:20px;
+    font-weight:bold;
+    border: none;
+    text-align:center;
 
+    @media (max-width: 700px){
+        width:150px;
+        height:40px;
+        margin-right:20px;
+        justify-content:flex-end;
+        font-size:12px;
+        margin-top:8px;
+        font-weight:bold;
+    }
+`
 
 export const NavLogo = styled.img`
     
@@ -30,7 +52,7 @@ export const NavLogo = styled.img`
     width:210px;
     
     @media (max-width: 768px){
-        width:150px
+        width:100px
     }
 `
 

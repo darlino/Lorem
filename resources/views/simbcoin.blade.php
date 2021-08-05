@@ -4,11 +4,13 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Git Help</title>
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap" rel="stylesheet">
+<link rel="icon" href="{{ URL::asset('/css/icon.png') }}" type="image/x-icon"/>
+<link rel="stylesheet" type="text/css" href="{{ URL::asset('/css/app.css')  }}">
 
         <!-- Styles -->
         <style>
@@ -27,6 +29,7 @@
         </div>
 
         <script src="{{ asset('js/app.js') }}" defer></script>
+        
 
     </body>
 </html>

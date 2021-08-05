@@ -20,6 +20,7 @@ export const InputContainer = styled.div`
 
     @media (max-width: 768px) {
          width: 95%;
+         margin-top:40px;
      }
 
 `

@@ -6,21 +6,23 @@ import {
     Route,
     Link
   } from "react-router-dom";
-import 'bootstrap/dist/css/bootstrap.min.css';
 import Main from './Pages/Index'
+import { ChakraProvider } from "@chakra-ui/react"
 import {Liyeplimall,LimarketComponent,SimbcoinComponent} from '../components/Pages/Categories/Index'
 
 function Liyep() {
     return (
-        <Router>
-            <Switch>
-                <Route path='/' exact component={Main}/>
+        <ChakraProvider>
+            <Router>
+                <Switch>
+                    <Route path='/' exact component={Main}/>
 
-                <Route path="/liyeplimall" component={Liyeplimall}/>
-                <Route path="/limarket" component={LimarketComponent}/>
-                <Route path="/simbcoin" component={SimbcoinComponent}/>
-            </Switch>
-        </Router>
+                    <Route path="/liyeplimal" component={Liyeplimall}/>
+                    <Route path="/limarket" component={LimarketComponent}/>
+                    <Route path="/simbcoin" component={SimbcoinComponent}/>
+                </Switch>
+            </Router>
+        </ChakraProvider>
         
        
     );

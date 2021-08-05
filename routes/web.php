@@ -17,7 +17,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/liyeplimall', function (){
+Route::get('/liyeplimal', function (){
     return view('liyeplimall');
 });
 
@@ -26,4 +26,15 @@ Route::get('/simbcoin', function (){
 });
 Route::get('/limarket', function (){
     return view('limarket');
+});
+
+Route::get('/download', function(){
+    $file = public_path()."/guide.pdf";
+
+
+    $header = array(
+        'Content-Type : application/pdf',
+    );
+
+    return Response::download($file, "guide.pdf", $header);
 });

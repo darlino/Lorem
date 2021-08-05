@@ -13,7 +13,7 @@ import HoverRating from './ratings'
 
 export const ToggleQuestion = (props) => {
     return (
-        <Accordion allowMultiple w={['300px','400px','800px','1000px']} justifyContent="center" margin="0 auto" textAlign="left">
+        <Accordion allowMultiple w={props.w} justifyContent="center" margin="0 auto" textAlign="left">
             <AccordionItem>
                 <AccordionButton>
                     <Box flex="1" textAlign="left" h="50px" pt="9px" fontSize={["12px","20px"]}>
@@ -21,10 +21,10 @@ export const ToggleQuestion = (props) => {
                     </Box>
                     <AccordionIcon />
                 </AccordionButton>
-                <AccordionPanel pb={4} ml={3} color="#474747" >
+                <AccordionPanel pb={4} ml={3} color="#474747" fontSize={["12px","20px"]} >
                         {props.text}
-                        <Center display="flex" flexDirection="column" mt="50px">
-                        <h1 color="black"> Cette reponse vous a été utile?</h1>
+                        <Center display="flex" flexDirection="column" mt="50px"  textAlign="left"  pt="9px" fontSize={["8px","25px"]}>
+                        <h5 color="black"> Cette reponse vous a été utile?</h5>
                             <HoverRating/>
                         </Center>
                         

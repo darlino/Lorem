@@ -1,0 +1,11 @@
+.react-player{
+    width : 520px;
+    height: 350px;
+}
+
+@media  (max-width: 700px){
+    .react-player{
+        width : 300px;
+        height : 200px;
+    }
+}

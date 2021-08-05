@@ -6,19 +6,23 @@ import {
     Route,
     Link
   } from "react-router-dom";
-import 'bootstrap/dist/css/bootstrap.min.css';
+
 import Main from '../components/Pages/Index'
 import {Liyeplimall,SimbcoinComponent,LimarketComponent} from '../components/Pages/Categories/Index'
 import { ChakraProvider } from "@chakra-ui/react"
 function Example() {
+
+    const reload = () =>{
+        window.location.reload();
+    }
     return (
         <ChakraProvider>
               <Router>
                 <Switch>
                     <Route path='/' exact component={Main}/>
-                    <Route path="/liyeplimall" component={Liyeplimall}/>
-                    <Route path="/limarket" component={LimarketComponent}/>
-                    <Route path="/simbcoin" component={SimbcoinComponent}/>
+                    <Route path="/liyeplimal" component={Liyeplimall} />
+                    <Route path="/limarket" component={LimarketComponent} />
+                    <Route path="/simbcoin" component={SimbcoinComponent} />
                 </Switch>
             </Router>
         </ChakraProvider>

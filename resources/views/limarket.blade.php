@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Git Help</title>
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -27,5 +27,6 @@
         </div>
 
         <script src="{{ asset('js/app.js') }}" defer></script>
+        
     </body>
 </html>

@@ -13,7 +13,7 @@
   .react-tabs {
     display: flex;
     margin-left: 0;
-    width: auto;
+    width: 100%;
     height: auto;
     color: black;
     background-color:white;
@@ -83,13 +83,10 @@
   .sm{
     display: none;
     margin:0 auto;
+    width: 100%;
   }
 
-  .info{
-    display: flex;
-  align-items: center;
-  justify-content: center;
-  }
+
   @media (max-width: 480px){
     .react-tabs__tab-list{
       min-width: 500px;
@@ -99,8 +96,6 @@
     .sm{
       display: flex;
       flex-direction: column;
-      
-      
     }
   
     .lg{
